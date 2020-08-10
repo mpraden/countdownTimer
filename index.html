@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+    	<h1 class="title">Countdown</h1>
+    </header>
+    <div class="content">
+		<div class="counter"></div>
+    
+    	<input id="seconds" type="number" placeholder="Seconds...">
+    	<div class="buttons">
+    		<button class="btn start" id="start" value="1" onclick="check(this)">Mulai</button>
+    		<button class="btn start" id="continue" value="1" onclick="check(this)">Lanjut</button>
+    		<button class="btn stop" id="stop" value="0" onclick="check(this)">berhenti</button>
+    		<button class="btn start" id="submit" onclick="subm()">Simpan</button>
+		</div>
+
+		<script src="app.js"></script>
+		<script src="storage.js"></script>
+</body>
+</html>
